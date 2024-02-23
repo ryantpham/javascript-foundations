@@ -1,0 +1,29 @@
+1. FizzBuzz Challenge:
+   Write a function that takes in a number as input and returns "Fizz" if the number is divisible by 3, "Buzz" if divisible by 5, and "FizzBuzz" if divisible by both. Otherwise, return the number itself.
+
+2. Factorial Calculation:
+   Create a function to calculate the factorial of a given non-negative integer using a loop. Factorial of a number 'n' is the product of all positive integers less than or equal to 'n'.
+
+3. Palindrome Checker:
+   Implement a function to check if a given string is a palindrome (reads the same backward as forward) using loops and if statements.
+
+4. Prime Number Checker:
+   Write a function to determine whether a given positive integer is a prime number or not using loops and conditionals.
+
+5. Array Sum:
+   Create a function that takes an array of numbers as input and returns the sum of all the numbers in the array.
+
+6. Maximum Number in Array:
+   Write a function to find the maximum number in a given array of numbers using loops and conditional statements.
+
+7. Even or Odd Counter:
+   Implement a function that takes an array of integers and counts the number of even and odd numbers separately. Return an object with the counts for each.
+
+8. Vowel Counter:
+   Create a function that takes a string as input and counts the number of vowels (a, e, i, o, u) using loops and conditionals.
+
+9. Temperature Converter:
+   Write a function that converts temperature from Celsius to Fahrenheit and vice versa based on user input. Use if statements to determine the conversion logic.
+
+10. Greatest Common Divisor (GCD):
+    Implement a function to find the greatest common divisor (GCD) of two positive integers using the Euclidean algorithm with loops and conditionals.
