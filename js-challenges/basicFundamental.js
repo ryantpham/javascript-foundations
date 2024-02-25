@@ -20,6 +20,20 @@ console.log("Fizz Buzz");
 console.log(fizzBuzz(5)); //expect fizz, buzz
 console.log(fizzBuzz(15));//expect fizz, buzz , fizz, buzz, fizz , fizzbuzz
 
+//2. Reverse String
+function reverseString(str){
+    let reverse = "";
+    for (let i = str.length - 1; i >=0; i--){
+        reverse += str[i];
+    }
+    return reverse;
+}
+
+//tests
+console.log("Reverse String")
+console.log(reverseString("Hello")); //expect olleH
+console.log(reverseString("Theresa")) //expect aserehT
+
 //3. Palinedrome Checker
 function palinedrome(str){
     for (let i = 1; i < str.length; i++){
@@ -103,3 +117,35 @@ function countsVowel(str){
 console.log("Vowel Counter");
 console.log(countsVowel("Theresa")); //expect 3
 console.log(countsVowel("Ryan")); //expect 1
+
+//9. Calculate Factorial
+function calculateFactorial(num){
+    let factorial = 1;
+    for(i=1;i<=num;i++){
+        factorial *= i;
+    }
+    return factorial;
+}
+//tests
+console.log("Calculate Factorial")
+console.log(calculateFactorial(5)); //expect 120
+console.log(calculateFactorial(10)); //expect 3628800
+
+//10. Reverse Number
+function reverseNumber(num){
+    let toStr = num.toString();
+    let reverse = toStr.split("").reverse();
+    let numArr = [];
+    for (i=0;i<reverse.length;i++){
+        numArr.push(parseInt(reverse[i]));
+    }
+    
+    return parseInt(numArr.join(""));
+}
+
+//tests
+console.log("Reverse Number")
+console.log(reverseNumber(12345))//expect 54321
+console.log(reverseNumber(54321))//expect 12345
+console.log(typeof reverseNumber(54321))//expect number
+

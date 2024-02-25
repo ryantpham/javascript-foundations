@@ -1,8 +1,8 @@
 1. FizzBuzz Challenge:
    Write a function that takes in a number as input and returns "Fizz" if the number is divisible by 3, "Buzz" if divisible by 5, and "FizzBuzz" if divisible by both. Otherwise, return the number itself.
 
-2. Factorial Calculation:
-   Create a function to calculate the factorial of a given non-negative integer using a loop. Factorial of a number 'n' is the product of all positive integers less than or equal to 'n'.
+2. Reverse String:
+   Write a JavaScript function called reverseString that takes a string as input and returns the reverse of that string using a loop.
 
 3. Palindrome Checker:
    Implement a function to check if a given string is a palindrome (reads the same backward as forward) using loops and if statements.
@@ -22,8 +22,9 @@
 8. Vowel Counter:
    Create a function that takes a string as input and counts the number of vowels (a, e, i, o, u) using loops and conditionals.
 
-9. Temperature Converter:
-   Write a function that converts temperature from Celsius to Fahrenheit and vice versa based on user input. Use if statements to determine the conversion logic.
+9. Factorial Calculation:
+   Create a function to calculate the factorial of a given non-negative integer using a loop. Factorial of a number 'n' is the product of all positive integers less than or equal to 'n'.
+   - For example, calculateFactorial(5) should return 120 because 5! = 5 * 4 * 3 * 2 * 1 = 120.
 
-10. Greatest Common Divisor (GCD):
-    Implement a function to find the greatest common divisor (GCD) of two positive integers using the Euclidean algorithm with loops and conditionals.
+10. Number Reversal:
+   Write a function called reverseNumber that takes an integer as input and returns its reverse. Use a while loop to achieve this.
