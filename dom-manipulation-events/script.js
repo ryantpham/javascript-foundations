@@ -38,4 +38,46 @@ const textTwo = document.createElement('p');
 textTwo.innerText = "ME TOO!"
 newDiv.appendChild(textTwo)
 
+//single onclick property
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello World!");
 
+//can have multiple onclick property
+const btn2 = document.querySelector("#btn2");
+btn2.addEventListener('click', () => {
+    alert('Hello World!');
+});
+
+//onclick method using a function
+function helloWorld(){
+    alert("Hello World using function.");
+}
+
+const methodFour = document.querySelector("#btn3");
+methodFour.addEventListener('click', helloWorld) //helloWorld does not include ()
+
+btn.addEventListener('click', function (e) {
+    console.log(e);
+  });
+
+  btn.addEventListener('click', function (e) {
+    console.log(e.target);
+  });
+
+  btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
+
+  //attaching listeners to a bunch of nodes
+  // buttons is a node list. It looks and acts much like an array.
+  const buttons = document.querySelectorAll("button");
+
+  // we use the .forEach method to iterate through each button
+  buttons.forEach((button) => {
+
+    button.addEventListener('click', () => {
+        alert(button.id)
+    })
+
+  })
+  buttons.addEventListener
